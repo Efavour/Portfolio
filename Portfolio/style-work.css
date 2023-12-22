@@ -1,0 +1,175 @@
+@font-face { font-family: Italiana; src: url('Italiana-Regular.ttf'); }
+
+
+.header {
+    position: fixed;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+h2 {
+    font-family: Italiana;
+    font-size: 128px;
+    color: #9D1C1F;
+}
+
+h3 {
+    color: #9D1C1F;
+    font-family: Italiana;
+    font-size: 36px;
+}
+
+
+.header a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: Italiana;
+    font-size: 36px;
+    color: #9D1C1F;
+    margin-right: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 50%;
+    transition-duration: .5s;
+}
+
+.header a.logo {
+    background-image: url("images/logo.png");
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 35px;
+}
+
+.header a:hover {
+    background-color: #9D1C1F;
+    color: white;
+    transition-duration: .5s;
+}
+
+.header a.active {
+    background-color: #9D1C1F;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+
+    max-width: 1440px; /* 2 */
+
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+
+    display: flex;
+
+    margin-top: 100px;
+}
+
+.image-1 {
+    background-image: url("images/Tesori.png");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 70px;
+    transition-duration: 1s;
+}
+.image-1:hover {
+    background-image: url("images/tesori-hov.png");
+    border-radius: 50px;
+    transition-duration: 1s;
+}
+
+.image-2 {
+    background-image: url("images/ambessa.jpg");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 70px;
+    transition-duration: 1s;
+}
+.image-2:hover {
+    background-image: url("images/ambessa-hov.png");
+    border-radius: 50px;
+    transition-duration: 1s;
+}
+
+.image-3 {
+    background-image: url("images/ilux.jpg");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 70px;
+    transition-duration: 1s;
+}
+.image-3:hover {
+    background-image: url("images/ilux-hov.png");
+    border-radius: 50px;
+    transition-duration: 1s;
+}
+
+.image-4 {
+    background-image: url("images/acinum.jpg");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 70px;
+    transition-duration: 1s;
+}
+.image-4:hover {
+    background-image: url("images/acinum-hov.png");
+    border-radius: 50px;
+    transition-duration: 1s;
+}
+
+.image-5 {
+    background-image: url("images/sarabeths.jpg");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 70px;
+    transition-duration: 1s;
+}
+.image-5:hover {
+    background-image: url("images/sarabeths-hov.png");
+    border-radius: 50px;
+    transition-duration: 1s;
+}
+
+.image-6 {
+    background-image: url("images/qtr.jpg");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 70px;
+    transition-duration: 1s;
+}
+.image-6:hover {
+    background-image: url("images/qtr-hov.png");
+    border-radius: 50px;
+    transition-duration: 1s;
+}
+#parent{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col{
+    color: white;
+    padding: 50px;
+    flex: 50%;
+}
+

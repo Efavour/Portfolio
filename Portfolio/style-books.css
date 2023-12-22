@@ -1,0 +1,171 @@
+@font-face { font-family: Italiana; src: url('Italiana-Regular.ttf'); }
+
+
+.header {
+    position: fixed;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+h2 {
+    font-family: Italiana;
+    font-size: 128px;
+    color: #9D1C1F;
+}
+
+h3 {
+    color: #9D1C1F;
+    font-family: Italiana;
+    font-size: 36px;
+}
+
+p {
+    font-family: "Gill Sans MT";
+    font-size: 20px;
+    width: 50%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkgrey;
+    margin-bottom: 50px;
+}
+
+body {
+    background: url('images/book-cover.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.header a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: Italiana;
+    font-size: 36px;
+    color: #9D1C1F;
+    margin-right: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 50%;
+    transition-duration: .5s;
+}
+
+.header a.logo {
+    background-image: url("images/logo.png");
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 35px;
+}
+
+.header a:hover {
+    background-color: #9D1C1F;
+    color: white;
+    transition-duration: .5s;
+}
+
+.header a.active {
+    background-color: #9D1C1F;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+
+    max-width: 1440px; /* 2 */
+
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: 802px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 802px;
+    background: rgba(217, 217, 217, 0.70);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    transition-duration: .5s;
+}
+
+.title:hover{
+    background: rgba(217, 217, 217, 0.9);
+    transition-duration: 1s;
+}
+
+.title-text {
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+
+.text-headline {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.support {
+    margin-bottom: 50px;
+}
+
+.content {
+    max-width: 1440px;
+    margin-left: auto;
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book {
+    background-image: url("images/book-body.jpg");
+    width: 680px;
+    height: 960px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content h3 {
+    align-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+}
+
+.book-1 {
+    background-image: url("images/shadow type.jpg");
+    width: 680px;
+    height: 960px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
